@@ -1,0 +1,102 @@
+.logoDashboard{
+    width:145px;
+    height: 45px;
+}
+
+.formStyle{
+    max-width: 800px;
+    background: whitesmoke;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 60px !important;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.fila1, .fila2 {
+    font-size: 0;
+    text-align: center;
+}
+.fila1 .imgResponsiva,
+.fila2 .imgResponsiva {
+    display: inline-block;
+    font-size: inherit;
+  
+}
+.fila1 .imgResponsiva  { margin-right: 20px; width: 26%; max-width: 360px;}
+.fila2 .imgResponsiva { margin-right: 20px;width: 33%; max-width: 360px;}
+
+.imgResponsiva img {
+    height: auto;
+    width: 100%;
+    display:block;
+
+    margin:0 10px;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table td{
+    border:none !important;
+}
+textarea{
+    resize: none;
+    outline: none;
+    border-color: rgb(180, 180, 180) ;
+    border-radius: 10px;
+}
+.card-img-top{
+
+    width:200px;
+    height: 100%;
+}
+.form-control{
+    margin-bottom:10px !important;
+}
+.imgGrupo{
+    background: grey;
+    height: 55%;
+    min-height: 200px;
+}
+.card-body{
+    height:"10px";
+}
+.nav-link{
+
+vertical-align:bottom;
+}
+
+.contenedorGrupo{
+    height: 400px;
+}
+.content{
+background: red;
+}
+@media (max-width:425px){
+    .card{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width:425px){
+    .card{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width:920px){
+    .card{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width:1200px){
+    .card{
+        width: 60%;
+        margin-bottom: 40px;
+    }
+}
+
